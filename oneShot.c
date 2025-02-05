@@ -73,7 +73,7 @@ int main() {
                 leds_active = true; // Marca os LEDs como ativos
 
                 // Inicia a sequência de LEDs com o primeiro estado imediatamente
-                add_alarm_in_ms(0, led_sequence_callback, NULL, false);
+                add_alarm_in_ms(1, led_sequence_callback, NULL, false);
             }
         }
 
